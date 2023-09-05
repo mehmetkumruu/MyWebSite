@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-image: url("gezegenimg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+ 
+        }
+        .Meth div
+        {
+            background-color: rgba(163, 79, 79, 0.534);
+            height: 400px;
+            width: 500px;
+            border-radius: 50%;
+            margin-top: 40%;
+            padding: 30px;
+            opacity: 0;
+            transition:all 1.2s ease-in-out;
+            -webkit-transition:all 1.2s ease-in-out;
+            -moz-transition:all 1.2s ease-in-out;
+            -ms-transition:all 1.2s ease-in-out;
+            -o-transition:all 1.2s ease-in-out;
+        }
+
+        .Meth:hover div
+        {
+            opacity: 1;
+            transform:rotate(720deg) scale(2,2);
+            -webkit-transform:rotate(7200deg) scale(2,2);
+            -moz-transform:rotate(720deg) scale(2,2);
+            -ms-transform:rotate(720deg) scale(2,2);
+            -o-transform:rotate(7200deg) scale(2,2);
+        }
+       
+        img{
+            width: 80px;
+            height: 80px;
+            margin: 0% 40%;
+            border-radius: 50%;
+
+        }
+        .Ra{
+            color: burlywood;
+            font-family: 'Roboto';
+            opacity: 1;
+            text-align: center;
+        }
+        div.Ra i {
+            padding: 0 10px;
+            font-size: 40px;
+            color: rgba(255, 111, 67);
+            transition: 0.4s;
+        }
+        div.Ra i:hover {
+            color:  rgb(231, 209, 7);
+        }
+        @media screen and (max-width: 1200px){
+        .Meth div{
+            width: 400px;
+            height: 300px;
+            
+        }
+        h1 {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 12px;
+
+        }
+        p{
+            font-size: 10px;
+            padding: 10px;
+            
+        }
+        .Ra a i{
+            font-size: 30px;
+        }
+        }
+        @media screen and (max-width: 800px){
+            .Meth div{
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+
+        }
+        h1 {
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 10px;
+
+        }
+        p{
+            font-size: 8px;
+            padding: 10px;
+            
+        }
+        .Ra a i{
+            font-size: 20px;
+        }
+        }
+      </style>
+      
+   
+</head>
+
+<body>
+
+    <div class="Meth">
+        
+        <div class="Ra">
+            <img src="myPhoto.jpg" alt="Ben">
+            <h1>Mehmet Kumru</h1>
+            <h2>Junior Game Developer</h2>
+            <p>Merhaba , Ben Mehmet 24 yaşındayım, 15 yaşımdan beri farklı iş alanlarında 
+            deneyimim oldu. Bütün bu işleri deneyimlerken öğrendim ve kendimi geliştirdim. 
+            Elbette kendime bir sınır çizmedim ve yazılımla tanışma kararı aldım fakat yazılım
+            deneylediğim diğer iş alanları gibi fiziksel ve kondisyon gerektiren bir iş değildi.
+            Açıkçası bu oldukça zorlu bir alışma sürecini beraberinde getirecekti.
+            Aslında hala üstesinden gelmeye çalışıyorum. Şu sıralar gelişmekte olduğum Web Tasarım alanında ilk denemem 
+            olan kendi web sitemi geliştirmeye başladım. Bunun yanı sıra Unity dersleri alıp güzel
+            bir hikayesi olan bir oyun üzerinde çalışmaya başlamak istiyorum bakalım hayat 
+            karşıma neler çıkaracak ... 
+            </p>
+            <a href="https://www.linkedin.com/in/mehmet-kumru-519945220"><i class="fab fa-linkedin" ></i></a>
+            <a href="https://github.com/MethRAa"><i class="fab fa-github" ></i></a>
+        </div>
+    
+    </div>
+
+
+
+    
+</body>
+</html>
